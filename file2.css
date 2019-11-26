@@ -2,15 +2,11 @@ body {
     background-color: #bcbcbc;
 }
 
-.figure-style h1 {
-    width: 350px;
+div {
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 250px;
     color: white;
-    background-color: #222222;
-    
-}
-
-.figure-style h2 {
-    width: 350px;
-    color: white;
-    background-color: #222222;
+    background-color: #4682B4;
 }
