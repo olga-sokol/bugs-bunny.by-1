@@ -1,12 +1,23 @@
 body {
-    background-color: #bcbcbc;
+    background-color: rgb(164, 187, 207);
 }
 
-div {
-    display: inline-block;
-    text-align: center;
-    width: 250px;
-    height: 250px;
-    color: white;
-    background-color: #4682B4;
+header {
+    width: auto;
+    height: 100px;
+    background-color: white;
+
+}
+
+.image {
+    position: relative;
+    width: 100%;
+
+}
+
+.image h1 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
 }
