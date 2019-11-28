@@ -30,6 +30,10 @@ header {
     filter: rgb(164, 187, 207);
 }
 
+.image.half-size {
+    height: 185px;
+}
+
 .image img {
     width: 100%;
     height: 100%;
