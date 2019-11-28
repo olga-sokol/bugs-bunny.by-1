@@ -50,6 +50,17 @@ header {
   color: #aed3e4;
 }
 
+form{
+  padding-top:70px;
+}
+.icon_submit{
+  background: url(../img/search_Icon.png) no-repeat right;
+  height: 24px;
+  width: 144px;
+  border: none;
+  cursor: pointer;
+}
+
 @media(max-width: 600px) {
   body {font-size: 80%;}
 }
