@@ -48,15 +48,62 @@ header {
   padding-right: 20px;
 }
 .navigathion-menu li a {
-  font-size: 16px;
-  line-height: 22px;
-  color: #115e90;  
+  display: inline-block;
+  font-size: 20px;
+  color: #0c4669;
+  font-weight: 500;
+  border-bottom: solid #ffffff 3px;
+  border-radius: 2px;
 }
 .navigathion-menu li a:hover {
-  color: #aed3e4;
+  border-bottom: solid #d0dfe6 3px;
+  color: #d0dfe6;
+  border-radius: 2px;
 }
 
-@media(max-width: 600px) {
-  body {font-size: 80%;}
+form{
+  padding-top:70px;
 }
-    
+.icon_submit{
+  background: url(../img/search_Icon.png) no-repeat right;
+  height: 24px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 360px){
+  .navigathion-menu {
+    padding-top: 1px;
+    padding-left: 13px;
+  }
+  header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .navigathion-menu li {
+    padding-right: 1px;
+    display: block;
+  }
+  .navigathion-menu li a {
+    font-size: 14px;
+  }
+  .img-logo{
+    width: 100px;
+    height: 100px;
+  }
+  form{
+  padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px){
+  .icon_submit{
+    width: 50px;
+  }
+}
+@media (max-width: 800px){
+.navigathion-menu li {
+  padding-right: 16px;
+  }
+}
