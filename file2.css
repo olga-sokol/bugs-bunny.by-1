@@ -27,6 +27,7 @@ body {
     position: relative;
     margin: 0 auto;
     width: 100%;
+    height: 45vw;
     max-width: 1477px;
     font-size: 0;
 }
@@ -76,4 +77,10 @@ body {
     height: 100%;
     background-color: #0b4569;
     opacity: .5;
+}
+
+.footer-container {
+    height: 100px;
+    background-color: white;
+
 }
