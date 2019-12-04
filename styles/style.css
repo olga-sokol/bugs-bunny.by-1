@@ -1,7 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@font-face {
-  font-family: "Aller";
-  src: url(../fonts/Aller_Rg.ttf) format("opentype"); }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,96 +11,126 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline; }
 
-.list-of-blocks {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
+.mainBlock      {
+    background-color: rgb(164, 187, 207);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
 
-a {
-  text-decoration: none; }
+#mainPageBlock {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 header {
-  background: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.navigathion-menu {
-  padding-top: 70px; }
-
-.navigathion-menu li {
-  display: inline-block;
-  padding-right: 20px;
-  font-family: 'Roboto', sans-serif; }
-
-.navigathion-menu li a {
-  display: inline-block;
-  font-size: 20px;
-  color: #0c4669;
-  font-weight: 500;
-  border-bottom: solid #ffffff 3px;
-  border-radius: 2px; }
-
-.navigathion-menu li a:hover {
-  border-bottom: solid #d0dfe6 3px;
-  color: #d0dfe6;
-  border-radius: 2px; }
-
-form {
-  padding-top: 70px; }
-
-.icon_submit {
-  background: url(../img/search_Icon.png) no-repeat right;
-  height: 24px;
-  width: 100px;
-  border: none;
-  cursor: pointer; }
-
-@media (max-width: 360px) {
-  .navigathion-menu {
-    padding-top: 1px;
-    padding-left: 13px; }
-
-  header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
 
-  .navigathion-menu li {
-    padding-right: 1px;
-    display: block; }
+#headerBlock {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    width: 60%;
+    height: 20%;
 
-  .navigathion-menu li a {
-    font-size: 14px; }
+}
 
-  .img-logo {
-    width: 100px;
-    height: 100px; }
+.menuBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
-  form {
-    padding-top: 20px; } }
-@media (max-width: 768px) {
-  .icon_submit {
-    width: 50px; } }
-@media (max-width: 800px) {
-  .navigathion-menu li {
-    padding-right: 16px; } }
+main {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
 
-/*# sourceMappingURL=style.css.map */
+.imagesMainBlock {
+    margin-top: 40px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bigImageMainBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bigImageText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.bigImage {
+    width: 500px;
+    height: 450px;
+}
+
+.threeImageMainBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.halfSizeImageMainBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.smallImage {
+    width: 228px;
+    height: 230px;
+}
+
+.halfSizeImageMainBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.halfSizeImage {
+    width: 460px;
+    height: 216px;
+}
