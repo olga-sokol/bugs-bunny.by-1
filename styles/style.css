@@ -113,14 +113,9 @@ main {
     align-items: center;
 }
 
-.leftSmallImage {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.rightSmallImage {
+.apartSmallImage {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -130,7 +125,7 @@ main {
 .halfSizeImageMainBlock {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -149,7 +144,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
     color: white;
 }
