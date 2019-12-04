@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Aller";
+    src: url(../fonts/Aller_Rg.ttf) format("opentype");
+}
+@font-face {
+    font-family: "Aller";
+    src: url(../fonts/Aller_Rg.ttf) format("opentype");
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+}
+
+#mainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+border: 2px solid salmon;
+}
+
+.logo-menu {
+    border: 1px solid salmon;
+}
+
+.list-of-blocks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+text-decoration: none;
+}
+header {
+  background:#ffffff;
+  display:flex;
+  justify-content: center;
+  border: 2px solid salmon;
+  width: 80%;
+ 
+  
+}
+
+#mainSearchBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid salmon;
+    width: 245px;
+    font-weight: 900;
+}
+
+.navigathion-menu{
+  padding-top:70px;
+  border: 2px solid salmon;
+}
+
+.navigathion-menu li {
+  display: inline-block;
+  padding-right: 20px;
+  
+}
+.navigathion-menu li a {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 900;
+  color: #115e90;  
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+.navigathion-menu li a:hover {
+  color: #aed3e4;
+}
+
+@media(max-width: 600px) {
+  body {font-size: 80%;}
+}
+
+#mainContentBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 450px;
+    border: 2px solid salmon;
+    
+}
+
+
+#mainContentBlockBigWindow {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+}
+
+#mainContentBlockBlogSmallWindows {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid green; 
+    
+
+}
+    
+#SmallWindowsTopSmallBlocks {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+#BlockBlogSmallWindowsBottomWideBlock {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.SmallWindowsTopSmallBlocksLink {
+    width: 45%;
+    height: 175px;
+    border: 2px solid palevioletred;
+}
+
