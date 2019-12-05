@@ -1,31 +1,100 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
- margin: 0;
- padding: 0;
- border: 0;
- font-size: 100%;
- font: inherit;
- vertical-align: baseline; }
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
-.mainBlock      {
-    background-color: rgb(164, 187, 207);
+.mainBlock {
+    background-color: #e6f0f5;
     width: 100%;
     height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
 
 #mainPageBlock {
@@ -54,7 +123,6 @@ header {
     background-color: white;
     width: 60%;
     height: 20%;
-
 }
 
 .menuBlock {
@@ -71,11 +139,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .imagesMainBlock {
-    position: relative;
+    /*position: relative;*/
     margin-top: 40px;
     width: 75%;
     display: flex;
@@ -85,13 +153,13 @@ main {
 }
 
 .bigImageMainBlock {
+    position: relative;
+    /*!*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
-
 
 .bigImage {
     width: 500px;
@@ -99,7 +167,6 @@ main {
 }
 
 .threeImageMainBlock {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -107,12 +174,12 @@ main {
 }
 
 .smallImageMainBlock {
+    z-index: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-
 
 .apartSmallImage {
     position: relative;
@@ -123,6 +190,7 @@ main {
 }
 
 .halfSizeImageMainBlock {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -130,7 +198,7 @@ main {
 }
 
 .smallImage {
-    width: 228px;
+    width: 230px;
     height: 230px;
 }
 
@@ -147,4 +215,35 @@ main {
     align-items: center;
     text-align: center;
     color: white;
+}
+
+.bigImageText {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.smallImagesText {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(12, 70, 105, 0.8);
 }
