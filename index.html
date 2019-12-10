@@ -1,46 +1,100 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="styles/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bugs-bunny</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">   
 </head>
 <body>
-    <div id="mainPageBlock">
-        <div id="headerBlock">
-        <header> 
-            <ul class="menuBlock">
-            <li>Меню</li>
-            <li>Контакты</li>
-            <li>Регистрация</li>
-            </ul>
-        </header>
+    <div id="mainBlock"><header>
+        <div class="logo-menu">
+        <a href="#"><img id="logo" src="img/logo.png"></a>
         </div>
-    <div class="mainBlock">
-        <main>
-            <div class="imagesMainBlock">
-            <div class="bigImageMainBlock">
-                <img class="bigImage" src="img/photo1.jpg" > 
-                <div class="bigImageText"><p>QA Meet-up</p></div>
-            </div>
+    <nav class="navigathion-menu">
+            <li><a href="#">МAТЕРИАЛЫ</a></li>
+            <li><a href="#">ИВЕНТЫ</a></li>
+            <li><a href="#">ТРЕНИРОВКА</a></li>
+            <li><a href="#">НОВОСТИ</a></li>   
+            <img id="search_Icon" src="./img/search_Icon.png"
             
-            <div class="threeImageMainBlock">
-                <div class="smallImageMainBlock">
-                    <img class="smallImage" src="img/photo2.jpg">
-                    <img class="smallImage" src="img/photo3.jpg">
+    </ul>
+    
+</nav>
+        
+</header>
+<main>
+    <div class="imagesMainBlock">
+        <div class="linkMainBlock">
+            <a href="">
+                <div class="bigImageMainBlock">
+                    <img class="bigImage" src="img/photo1.jpg">
+                    <div class="overlay"></div>
+                    <div class="imageText">
+                        <p class="bigImageText">InQA Meetup</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="threeImageMainBlock">
+            <div class="smallImageMainBlock">
+                <div class="linkMainBlock">
+                    <a href="">
+                        <div class="apartSmallImage">
+                            <img class="smallImage" src="img/photo2.jpg">
+                            <div class="overlay"></div>
+                            <div class="imageText">
+                                <p class="smallImagesText">100 задач с IT собеседований</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
 
+
+                <div class="linkMainBlock">
+                    <a href="">
+                        <div class="apartSmallImage">
+                            <img class="smallImage" src="img/photo3.jpg">
+                            <div class="overlay"></div>
+                            <div class="imageText">
+                                <p class="smallImagesText">Как работаю web-приложения?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="linkMainBlock">
+                <a href="">
                     <div class="halfSizeImageMainBlock">
                         <img class="halfSizeImage" src="img/photo4.jpg">
-                
+                        <div class="overlay"></div>
+                        <div class="imageText">
+                            <p class="smallImagesText">Как начинающему тестировщику получить опыт?</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
-</main>
-    </div>
+
+</div>
+<div class="footerBlock">
+<footer>
+    <div class="footerGeneralBlock">
+
 
     </div>
+
+</footer>
+</div>
+</div>
+</main>
+
+</div> 
 </body>
 </html>
